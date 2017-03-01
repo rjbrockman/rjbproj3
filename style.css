@@ -11,29 +11,34 @@ html {
 }
 
 /* Setting as a block */
-header, div, nav, section, footer {
+header, nav, section, footer {
 	display: block;
 }
 
 /* Setting line-height */
 body {
-	line-height: 1;
+	    padding-left: 11em;
+        font-family: Georgia, "Times New Roman",
+        Times, serif;
+        color: black; 
 }
+
 
 /* Giving style to the header */
 #header {
 	text-align: center;
 	color: #800000;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
-/* Giving style to the h4 */
-h4 {
+
+/* Giving style to the h3 */
+h3 {
 	color: #8B0000;
 	margin-left: 1rem;
 }
 
 /* Styling the list */
 ol, ul {
-	list-style: none;
+	list-style: disc;
 }
