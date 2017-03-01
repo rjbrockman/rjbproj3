@@ -1,0 +1,39 @@
+/* Setting page background, font-family, font-size, margin, padding, border and aligning */
+html {
+	background-color: #FFE4C4;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 100%;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;	
+}
+
+/* Setting as a block */
+header, div, nav, section, footer {
+	display: block;
+}
+
+/* Setting line-height */
+body {
+	line-height: 1;
+}
+
+/* Giving style to the header */
+#header {
+	text-align: center;
+	color: #800000;
+	font-size: 1.5em;
+}
+
+/* Giving style to the h4 */
+h4 {
+	color: #8B0000;
+	margin-left: 1rem;
+}
+
+/* Styling the list */
+ol, ul {
+	list-style: none;
+}
