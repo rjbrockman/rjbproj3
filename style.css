@@ -25,8 +25,8 @@ body {
 
 
 /* Giving style to the header */
-#header {
-	text-align: center;
+header {
+	text-align: leftwards;
 	color: #800000;
 	font-size: 1em;
 }
