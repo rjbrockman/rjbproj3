@@ -31,7 +31,9 @@ header {
 	font-size: 1em;
 }
 
-
+mark {
+	color: blue;
+}
 /* Giving style to the h3 */
 h3 {
 	color: #8B0000;
