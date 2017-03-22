@@ -30,14 +30,14 @@ html {
 .menu_simple ul {
 margin: 0;
 padding: 0;
-width:185px;
+width:18em;
 list-style-type: none;
 }
  
 .menu_simple ul li a {
 text-decoration: none;
 color: white;
-padding: 10.5px 11px;
+padding: .5em .6em;
 background-color: #005555;
 display:block;
 }
