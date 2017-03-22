@@ -1,54 +1,21 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/* Reset */
+* {
+  vertical-align: baseline;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 1em;
+  border: 0 none;
+  outline: 0;
+  padding: 0;
+  margin: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+/* Width Control */
+#wrap{
+  height: 100%; 
+  max-width: 61em; 
+  margin: auto;
 }
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/*************************************************/
-/* end http://meyerweb.com/eric/tools/css/reset/ */
-/*************************************************/
+/* Main */
 /* Setting page background, font-family, font-size, margin, padding, border and aligning */
 html {
 	background-color: #FFE4C4;
@@ -59,6 +26,29 @@ html {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;	
+}
+.menu_simple ul {
+margin: 0;
+padding: 0;
+width:185px;
+list-style-type: none;
+}
+ 
+.menu_simple ul li a {
+text-decoration: none;
+color: white;
+padding: 10.5px 11px;
+background-color: #005555;
+display:block;
+}
+ 
+.menu_simple ul li a:visited {
+color: white;
+}
+ 
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+color: white;
+background-color: #5FD367;
 }
 
 /* Setting as a block */
