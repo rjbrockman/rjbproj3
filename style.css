@@ -1,21 +1,4 @@
-/* Reset */
-* {
-  vertical-align: baseline;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 1em;
-  border: 0 none;
-  outline: 0;
-  padding: 0;
-  margin: 0;
-}
-/* Width Control */
-#wrap{
-  height: 100%; 
-  max-width: 61em; 
-  margin: auto;
-}
-/* Main */
+/* CSS */
 /* Setting page background, font-family, font-size, margin, padding, border and aligning */
 html {
 	background-color: #FFE4C4;
@@ -27,6 +10,14 @@ html {
 	border: 0;
 	vertical-align: baseline;	
 }
+
+/* Width Control */
+#wrap{
+  height: 100%; 
+  max-width: 61em; 
+  margin: auto;
+}
+
 .menu_simple ul {
 margin: 0;
 padding: 0;
