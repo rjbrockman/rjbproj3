@@ -83,7 +83,7 @@ footer{
 
 /* Giving style to the header */
 header {
-	text-align: leftwards;
+	text-align: left;
 	color: #800000;
 	font-size: 1em;
 }
