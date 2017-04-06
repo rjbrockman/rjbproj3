@@ -1,14 +1,14 @@
 /* CSS */
 /* Setting page background, font-family, font-size, margin, padding, border and aligning */
 html {
-	background-color: #FFE4C4;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-size: 100%;
-	font: inherit;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;	
+  background-color: #FFE4C4;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;	
 }
 
 /* Width Control */
@@ -19,32 +19,32 @@ html {
 }
 
 .menu_simple ul {
-margin: 0;
-padding: 0;
-width:18em;
-list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:18em;
+  list-style-type: none;
 }
  
 .menu_simple ul li a {
-text-decoration: none;
-color: white;
-padding: .5em .6em;
-background-color: #005555;
-display:block;
+  text-decoration: none;
+  color: white;
+  padding: .5em .6em;
+  background-color: #005555;
+  display:block;
 }
  
 .menu_simple ul li a:visited {
-color: white;
+  color: white;
 }
  
 .menu_simple ul li a:hover, .menu_simple ul li .current {
-color: white;
-background-color: #5FD367;
+  color: white;
+  background-color: #5FD367;
 }
 
 /* Setting as a block */
 section {
-	display: block;
+  display: block;
 }
 
 nav{
@@ -58,18 +58,18 @@ nav{
 }
 
 h1, h2 { 
-    font-size: 1.25em;
-    font-weight: 900;
-    font-family: Garamond, serif;
+  font-size: 1.25em;
+  font-weight: 900;
+  font-family: Garamond, serif;
 }
 
 
 /* Setting line-height */
-body {
-	    padding-left: 11em;
-        font-family: Georgia, "Times New Roman",
-        Times, serif;
-        color: black; 
+body { 
+  padding-left: 11em;
+  font-family: Georgia, "Times New Roman",
+  Times, serif;
+  color: black; 
 }
 
 footer{
@@ -83,21 +83,30 @@ footer{
 
 /* Giving style to the header */
 header {
-	text-align: left;
-	color: #800000;
-	font-size: 1em;
+  text-align: left;
+  color: #800000;
+  font-size: 1em;
 }
 
 mark {
-	color: blue;
+  color: blue;
 }
 /* Giving style to the h3 */
 h3 {
-	color: #8B0000;
-	margin-left: 1rem;
+  color: #8B0000;
+  margin-left: 1rem;
 }
 
 /* Styling the list */
 ol, ul {
-	list-style: disc;
+  list-style: disc;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+#leftalign {
+  width: 49.5em;
+  margin: 0 auto;
+}  
