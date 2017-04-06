@@ -1,2 +1,3 @@
-# rjbproj2
-Contains  my Project2 - Responsive and Relative-Unit CSS
+# rjbproj3
+Project3 - Adding in JavaScript to Ongoing Class Project
+
