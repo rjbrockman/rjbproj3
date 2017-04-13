@@ -8,14 +8,17 @@ html {
   margin: 0;
   padding: 0;
   border: 0;
+  width: 100%;
+  height: 100%;
+
   vertical-align: baseline;	
 }
 
 /* Width Control */
-#wrap{
-  height: 100%; 
-  max-width: 61em; 
-  margin: auto;
+.wrap{
+  height: 100%;
+  margin: 5% 5% 5% 5%;
+  padding: 1% 1% 1% 1%;
 }
 
 .menu_simple ul {
@@ -74,11 +77,15 @@ body {
 
 footer{
   padding: 0.24em;
-  background-color: black;
-  color: #c9c9c9;
+  background-color: white;
+  color: Black;
   font-size: 0.8em;
   text-transform: uppercase;
   text-align: center;
+}
+
+address {
+  text-transform: lowercase;
 }
 
 /* Giving style to the header */
@@ -94,7 +101,7 @@ mark {
 /* Giving style to the h3 */
 h3 {
   color: #8B0000;
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 /* Styling the list */
@@ -106,7 +113,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 #leftalign {
   width: 49.5em;
   margin: 0 auto;
-}  
+} 
+
