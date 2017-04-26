@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+    <title>Slide Show Page</title>
+	<link href="css/Normalize.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="script/jquery-3.2.1.min.js"></script>
+  <!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+	<link href="lib/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body class="wrap">
+   <header>
+    <h1>Rich Brockman      Naperville, IL</h1>
+		<nav id="navbar"> 
+			<div class="menu_simple">
+				<ul>
+					<li class="home"><a class="active" href="index.html">Home</a></li>
+					<li><a href="resume.html" title="Resume">Link to Rich's Resume Page</a></li>
+					<li><a href="interests.html" title="Personal Interests">Link to Rich's Interests Page</a></li>
+					<li><a href="slides.html" title="Slide Show">Link to Rich's Slides Show</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	
+  <div class="slideShowContainer">
+    <div id='slideShowTitle'>
+      <p><span>Backyard Critters</span></p>
+    </div>
+    <ul class = "bxslider">
+      <li><img src="images/chipmunk.jpg" alt="slide 1" /></li>	
+      <li><img src="images/Coyote.jpg" alt="slide 2" /></li>
+      <li><img src="images/duck.jpg" alt="slide 3" /></li>
+      <li><img src="images/fawn.jpg" alt="slide 4" /></li>
+	  <li><img src="images/possum.jpg" alt="slide 5" /></li>	
+      <li><img src="images/rabbit.jpg" alt="slide 6" /></li>
+      <li><img src="images/raccoon.jpg" alt="slide 7" /></li>
+	  <li><img src="images/skunk.jpg" alt="slide 8" /></li>
+      <li><img src="images/squirrel.jpg" alt="slide 9" /></li>
+	  <li><img src="images/turkey.jpg" alt="slide 10" /></li>
+    </ul>
+  </div>
+   <footer>
+		<p>For more details, contact: Rich Brockman</p>
+			<address>
+				<a href="mailto:brockmanrich@gmail.com">brockmanrich@gmail.com</a>
+			</address>
+		<p><small>Published 2017 IIT -ITMD-361.</small></p>
+  </footer> 	  
+  
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.bxslider').bxSlider({
+        auto: true,         <!--set autoplay --> 
+        autoControls: true  <!--set autoplay controls--> 
+      });
+    });
+  </script>
+</body>
+</html>

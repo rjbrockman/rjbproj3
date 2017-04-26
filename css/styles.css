@@ -126,3 +126,13 @@ img {
     display: inline;
   }
 }
+/* Styling for the slides show */
+#slideShowTitle {
+  font-family:  "Comic Sans MS", san-serif;
+  font-size: 45px;
+  color: blue;
+  text-align: center;
+}
+.slideShowContainer {
+	text-align: center;
+}
